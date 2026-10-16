@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.knopka_svyazi_zhyoltaya {
+    width: 137px;
+    height: 55px;
+    background-color: #FFD11A;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.blok_knopki_shapki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 8vh;
+}
+
+.menyu_navigatsionnaya_panel a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 55px;
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menyu_navigatsionnaya_panel li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 28vw;
+    height: 7vh;
+}
+
+.menyu_navigatsionnaya_panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38vw;
+    height: 6vh;
+}
+
+.logotip_shapki_konteyner h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.logotip_shapki_konteyner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 17vw;
+    height: 6vh;
+}
+
+.novosti_pervyy_ekran nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    height: 10vh;
+}
+
+.novosti_pervyy_ekran header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 11vh;
+    background-color: #262626;
+    border: 0.3px solid gray;
+    border-right: none;
+    border-left: none;
+}
+
+.soobschestvo_kartochka_opisanie {
+    width: 425px;
+    height: 54px;
+    color: #98989A;
+    font-size: 18px;
+}
+
+.soobschestvo_kartochka_shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 425px;
+    height: 52px;
+    color: white;
+}
+
+.soobschestvo_kartochka_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 506px;
+    height: 206px;
+    background-color: #262626;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+}
+
+.soobschestvo_kartochki_ryad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1596px;
+    height: 246px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+}
+
+.soobschestvo_tekstovoe_opisanie .tekst_vtorostepennyy_aktsent {
+    color: #98989A;
+    font-size: 19px;
+}
+
+.soobschestvo_tekstovoe_opisanie h1 {
+    color: white;
+    font-size: 58px;
+}
+
+.soobschestvo_tekstovoe_opisanie span {
+    background-color: #98989A;
+    color: white;
+    font-size: 18px;
+}
+
+.soobschestvo_tekstovoe_opisanie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1366px;
+    height: 217px;
+}
+
+.soobschestvo_vvodnyy_blok {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1596px;
+    height: 217px;
+}
+
+.soobschestvo_vnutrenniy_kontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1596px;
+    height: 563px;
+    background-color: #1A1A1A;
+}
+
+.soobschestvo_sektsiya_blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #1A1A1A;
+}
+
+.videorolik_tekst_opisanie p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.videorolik_tekst_opisanie h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.videorolik_tekst_opisanie {
+    display: grid;
+    grid: template rows 2px;
+    width: 718px;
+    height: 100px;
+}
+
+.videorolik_kartochka_razdelennaya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+    height: 700px;
+    border: 0.3px solid gray;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.videorolik_kartochka_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+    height: 700px;
+}
+
+.videoroliki_ryad_kartochek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 702px;
+    border: 0.3px solid gray;
+    border-right: none;
+    border-left: none;
+}
+
+.videoroliki_sektsiya_obzor {
+    width: 100%;
+    height: 155vh;
+    background-color: #141414;
+}
+
+.stati_knopka_prosmotra p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.stati_knopka_prosmotra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 63px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.stati_blok_vzaimodeystviya {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 212px;
+    height: 209px;
+}
+
+.stati_element_reaktsii p {
+    color: #98989A;
+    font-size: 20px;
+}
+
+.stati_element_reaktsii {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90px;
+    height: 43px;
+    background-color: #262626;
+    border: 0.3px solid gray;
+    border-radius: 30px;
+}
+
+.stati_statistika_reaktsiy {
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+    height: 43px;
+}
+
+.stati_tekst_opisaniya p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.stati_tekst_opisaniya h1 {
+    color: white;
+    font-size: 26px;
+}
+
+.stati_tekst_opisaniya {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 950px;
+    height: 60px;
+}
+
+.stati_tekst_zagolovka {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 950px;
+    height: 209px;
+}
+
+.stati_osnovnoy_kontent {
+    display: flex;
+    width: 1162px;
+    height: 209px;
+}
+
+.stati_avtor_dannye p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.stati_avtor_dannye h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.stati_avtor_informatsiya {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 284px;
+    height: 80px;
+}
+
+.stati_kartochka_obolochka {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    height: 30vh;
+}
+
+.stati_ryad_kartochek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    border: 0.3px solid gray;
+    border-right: none;
+    border-left: none;
+}
+
+.stati_bloga_sektsiya {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 155vh;
+    background-color: #141414;
+}
+
+.knopka_filtra_rubrika {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 249px;
+    height: 87px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    color: #98989A;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.paneli_filtrov_temy {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 22vh;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-right: none;
+    border-left: none;
+}
+
+.zagolovok_sektsii_knopka p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.zagolovok_sektsii_knopka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 63px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.zagolovok_sektsii_tekst h1 {
+    color: white;
+    font-size: 58px;
+}
+
+.zagolovok_sektsii_tekst span {
+    background-color: #333333;
+}
+
+.zagolovok_sektsii_tekst p {
+    color: white;
+    font-size: 20px;
+}
+
+.zagolovok_sektsii_tekst {
+    width: 1596px;
+    height: 90px;
+}
+
+.zagolovok_sektsii_shapka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    background-color: #262626;
+}
+
+.istoriya_knopka_perehoda h1 {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.istoriya_knopka_perehoda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 277px;
+    height: 63px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+}
+
+.istoriya_schetchik_edinitsa {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 92px;
+    height: 43px;
+    background-color: #262626;
+    border: 0.3px solid gray;
+    border-radius: 30px;
+    color: #98989A;
+    font-size: 18px;
+}
+
+.istoriya_schetchiki_bloka {
+    display: flex;
+    width: 185px;
+    height: 43px;
+}
+
+.istoriya_nizhnyaya_chast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 512px;
+    height: 63px;
+}
+
+.istoriya_kartochka_element .tekst_vtorostepennyy_aktsent {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.istoriya_kartochka_element h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.istoriya_kartochka_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 512px;
+    height: 395px;
+}
+
+.glavnye_istorii_setka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1596px;
+    height: 395px;
+}
+
+.glavnye_istorii_sektsiya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #141414;
+}
+
+.vydelennaya_novost_knopka_chitat h1 {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.vydelennaya_novost_knopka_chitat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 136px;
+    height: 63px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+}
+
+.vydelennaya_novost_schetchik_punkt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 92px;
+    height: 43px;
+    background-color: #262626;
+    border: 0.3px solid gray;
+    border-radius: 30px;
+}
+
+.vydelennaya_novost_schetchiki {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 189px;
+    height: 43px;
+}
+
+.vydelennaya_novost_niz {
+    display: flex;
+    justify-content: space-between;
+    width: 1001px;
+    height: 63px;
+}
+
+.vydelennaya_novost_meta_pole p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.vydelennaya_novost_meta_pole h1 {
+    color: white;
+    font-size: 18px;
+}
+
+.vydelennaya_novost_meta_pole {
+    width: 140px;
+    height: 58px;
+}
+
+.vydelennaya_novost_metadannye {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 58px;
+}
+
+.vydelennaya_novost_kontent h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.vydelennaya_novost_kontent p {
+    color: #98989A;
+    font-size: 20px;
+}
+
+.vydelennaya_novost_kontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1001px;
+    height: 359px;
+}
+
+.vydelennaya_novost_obolochka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1596px;
+    height: 427px;
+}
+
+.vydelennaya_novost_sektsiya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65vh;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.novosti_zagolovok_opisanie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 1186px;
+    height: 54px;
+    color: #98989A;
+    font-size: 18px;
+}
+
+.novosti_zagolovok_stroka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1596px;
+    height: 104px;
+}
+
+.novosti_zagolovok_obolochka h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.novosti_zagolovok_obolochka {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1596px;
+    height: 228px;
+}
+
+.novosti_glavnyy_zagolovok_blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64.7vh;
+    border: 0.3px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.novosti_pervyy_ekran {
+    width: 100%;
+    height: 141vh;
+    background-color: #141414;
+}
+
+.podval_yuridicheskiy_tekst {
+    color: #666666;
+    font-size: 18px;
+}
+
+.podval_nizhnyaya_polosa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1596px;
+    height: 103px;
+}
+
+.podval_knopka_resursa p {
+    color: #98989A;
+    font-size: 18px;
+}
+
+.podval_knopka_resursa {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 165px;
+    height: 47px;
+    background-color: #141414;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.podval_kolonka_ssylok p {
+    color: #666666;
+    font-size: 18px;
+}
+
+.podval_kolonka_ssylok h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.podval_kolonka_ssylok span {
+    position: relative;
+    left: 5px;
+    background-color: #262626;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.podval_kolonka_ssylok {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 255px;
+    height: 299px;
+}
+
+.podval_navigatsiya_kolonki {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1596px;
+    height: 464px;
+    border: 0.3px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 62.5vh;
+    background-color: #141414;
+}
